@@ -1,12 +1,74 @@
-# React + Vite
+# 顧客管理ダッシュボード
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+このプロジェクトは、ReactとViteを使用して構築された顧客管理ダッシュボードです。
 
-Currently, two official plugins are available:
+## セットアップ手順
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. リポジトリをクローンします。
+   ```sh
+   git clone <リポジトリのURL>
+   cd customer-dashboard
+   ```
+2. 依存関係をインストールします。
+   ```
+   npm install
+   ```
+3. 開発サーバーを起動します。
+   ```
+   npm run dev
+   ```
+4. ブラウザで http://localhost:5173/ を開きます。
 
-## Expanding the ESLint configuration
+## 使用した技術
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- React Router
+- Material-UI
+- Faker.js
+
+## 実装した機能の説明
+
+- ログイン機能: ユーザーIDとパスワードを入力してログインします。ログインに成功すると、顧客リストページにリダイレクトされます。
+- ダッシュボード: 顧客リストを表示するダッシュボードページがあります。
+- 顧客リスト: 顧客のリストを表示し、検索、並び替え、追加、削除ができます。
+    - 検索: 顧客名で検索できます。
+    - 並び替え: 登録日や名前で並び替えができます。
+    - 追加: 新しい顧客を追加できます。
+    - 削除: 顧客を削除できます。
+
+## 動作確認方法
+
+1. ログインページでユーザーIDとパスワードを入力してログインします。
+2. 顧客リストページで顧客を検索、並び替え、追加、削除します。
+3. ログアウトボタンをクリックしてログアウトします。
+
+## ディレクトリ構造
+
+```
+.
+├── .gitignore
+├──
+├──
+├──
+├──
+├──
+├──
+├──
+├── public/
+│   └── vite.svg
+└── src/
+    ├──
+    ├──
+    ├──
+    ├──
+    ├── assets/
+    │   └── react.svg
+    ├── components/
+    │   ├──
+    │   ├──
+    │   └──
+    └── pages/
+        ├──
+        └──
+```
