@@ -62,9 +62,9 @@ const CustomerList = () => {
 
   useEffect(() => {
     setCustomers({
-      "アクティブ顧客": generateCustomers(10, "アクティブ顧客"),
-      "潜在顧客": generateCustomers(10, "潜在顧客"),
-      "過去の顧客": generateCustomers(10, "過去の顧客"),
+      "アクティブ顧客": generateCustomers(15, "アクティブ顧客"),
+      "潜在顧客": generateCustomers(15, "潜在顧客"),
+      "過去の顧客": generateCustomers(15, "過去の顧客"),
     });
   }, []);
 
@@ -168,7 +168,6 @@ const CustomerList = () => {
   );
 
   const handleLogout = () => {
-    // Add your logout logic here (e.g., clearing authentication tokens)
     navigate('/login'); // Redirect to the login page
   };
 
@@ -187,7 +186,7 @@ const CustomerList = () => {
         <Container maxWidth="lg" sx={{ width: '100%' }}>
           <Box sx={{ display: 'flex', gap: 2, alignItems: 'center', mb: 2 }}>
             <TextField
-              label="検索"
+              label="お名前で検索"
               variant="outlined"
               fullWidth
               value={search}
