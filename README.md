@@ -57,29 +57,5 @@
 ## ディレクトリ構造
 
 ```
-.
-├── .gitignore
-├── [eslint.config.js](http://_vscodecontentref_/1)
-├── [index.html](http://_vscodecontentref_/2)
-├── [package.json](http://_vscodecontentref_/3)
-├── [postcss.config.js](http://_vscodecontentref_/4)
-├── [README.md](http://_vscodecontentref_/5)
-├── [tailwind.config.js](http://_vscodecontentref_/6)
-├── [vite.config.js](http://_vscodecontentref_/7)
-├── public/
-│   └── vite.svg
-└── src/
-    ├── [App.css](http://_vscodecontentref_/8)
-    ├── [App.jsx](http://_vscodecontentref_/9)
-    ├── [index.css](http://_vscodecontentref_/10)
-    ├── [main.jsx](http://_vscodecontentref_/11)
-    ├── assets/
-    │   └── react.svg
-    ├── components/
-    │   ├── [CustomerList.jsx](http://_vscodecontentref_/12)
-    │   ├── [Login.jsx](http://_vscodecontentref_/13)
-    │   └── [LoginForm.jsx](http://_vscodecontentref_/14)
-    └── pages/
-        ├── [DashboardPage.jsx](http://_vscodecontentref_/15)
-        └── [LoginPage.jsx](http://_vscodecontentref_/16)
+. ├── .gitignore ├── eslint.config.js ├── index.html ├── package.json ├── postcss.config.js ├── README.md ├── tailwind.config.js ├── vite.config.js ├── public/ │ └── vite.svg └── src/ ├── App.css ├── App.jsx ├── index.css ├── main.jsx ├── assets/ │ └── react.svg ├── components/ │ ├── CustomerList.jsx │ ├── Login.jsx │ └── LoginForm.jsx └── pages/ ├── DashboardPage.jsx └── LoginPage.jsx
   ```
