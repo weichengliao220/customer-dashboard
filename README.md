@@ -4,6 +4,8 @@
 
 ## セットアップ手順
 
+### ローカル環境でのセットアップ
+
 1. リポジトリをクローンします。
    ```
    git clone git@github.com:weichengliao220/customer-dashboard.git
@@ -21,6 +23,11 @@
    ```
    http://localhost:5173/
    ```
+
+### GitHub Pagesでのアクセス
+
+以下のURLにアクセスすることで、アプリケーションを直接利用できます：
+- [https://weichengliao220.github.io/customer-dashboard](https://weichengliao220.github.io/customer-dashboard)
 
 ## 使用した技術
 
